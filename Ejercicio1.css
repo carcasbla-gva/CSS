@@ -1,0 +1,10 @@
+p{
+    color: grey;
+}
+.destacado{
+    color: blue;
+    font-weight: bold;
+}
+p:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box;
+}
+.contenedor-padre{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.caja-relativa{
+    position: relative;
+    top: 10px;
+}
+.caja-absoluta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+.caja-fija{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}

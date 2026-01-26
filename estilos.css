@@ -1,0 +1,17 @@
+/* display: block */
+.bloque {
+    display: block; /*explícitamente*/
+    background: lightblue;
+    margin: 10px;
+    padding: 10px;
+     width: 200px; /* Ancho respetado */
+    }
+    /* display: inline */
+    .en-linea {
+    display: inline; /*explícitamente*/
+    background: lightcoral;
+    margin: 10px;
+    padding: 10px;
+     width: 200px; /* Ancho IGNORADO */
+     height: 50px; /* Alto IGNORADO */
+    }
