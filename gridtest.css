@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    gap: 1px;
+}
+
+header, footer{
+    grid-column: 1 / 4;
+}
