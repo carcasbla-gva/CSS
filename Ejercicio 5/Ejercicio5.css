@@ -1,0 +1,14 @@
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.galeria-grid > div {
+    background-color: skyblue;
+    color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
